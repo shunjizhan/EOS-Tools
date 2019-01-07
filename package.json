@@ -1,0 +1,30 @@
+{
+  "name": "eos-tools",
+  "version": "1.0.0",
+  "description": "tools to interact with EOS blockchain",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js -d dist",
+    "run": "npm run build && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shunjizhan/EOS-Tools.git"
+  },
+  "keywords": [
+    "EOS"
+  ],
+  "author": "Shunji Zhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shunjizhan/EOS-Tools/issues"
+  },
+  "homepage": "https://github.com/shunjizhan/EOS-Tools#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eosjs": "^20.0.0-beta3",
+    "node-fetch": "^2.3.0",
+    "request": "^2.88.0"
+  }
+}

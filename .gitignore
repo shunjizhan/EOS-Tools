@@ -1,0 +1,4 @@
+nodeos.log
+node_modules/
+dist/
+CONTRACTS_DIR/
